@@ -11,8 +11,6 @@
         <thead>
             <th>ID</th>
             <th>Titolo</th>
-            <th>Descrizione</th>
-            <th>Thumb</th>
             <th>Prezzo</th>
             <th>Serie</th>
             <th>Data Uscita</th>
@@ -23,8 +21,6 @@
             @forelse($comics as $comic)
             <tr>
             <td>{{ $comic->title }}</td>
-            <td>{{ $comic->description }}</td>
-            <td>{{ $comic->thumb }}</td>
             <td>{{ $comic->price }}</td>
             <td>{{ $comic->series }}</td>
             <td>{{ $comic->sale_date }}</td>
